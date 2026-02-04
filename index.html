@@ -17,14 +17,15 @@
 
 		$(document).ready(function(){
 			    $.ajax({
-			       type: 'POST',
-			       url: 'database.php',
+			       type: 'GET',
+			       url: 'bakeshop.json',
+			       dataType: 'json',
 			       async: true,
 			       success: function(data){
 			       	tblpagination('appenddiv',data);
 			       },
 			       error: function(data){
-			       	alert(JSON.stringify(data))
+			       	alert('Error loading data: ' + JSON.stringify(data))
 			       }
 			   });
 		});
