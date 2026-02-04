@@ -1,0 +1,29 @@
+[
+    {
+        "Code": "123",
+        "Description": "Brownie",
+        "Cost": "12.00",
+        "Quantity": "231",
+        "U/M": "pc",
+        "suppcode": "ABC",
+        "stqty": "213"
+    },
+    {
+        "Code": "321",
+        "Description": "Cake",
+        "Cost": "99.25",
+        "Quantity": "31",
+        "U/M": "pc",
+        "suppcode": "231",
+        "stqty": "0"
+    },
+    {
+        "Code": "412",
+        "Description": "Cookie",
+        "Cost": "12.00",
+        "Quantity": "23",
+        "U/M": "pc",
+        "suppcode": "123",
+        "stqty": "3"
+    }
+]
